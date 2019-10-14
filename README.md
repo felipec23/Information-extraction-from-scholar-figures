@@ -2,13 +2,14 @@
 This project: downloads PDF's from Libgen, extract the images from PDF's, classifies them, and extract the information in it.
 
 ## Part 1: Downloading the PDF's
-DOI's from papers were extracted using Scopus. 2000 DOI's were exported into a TXT file. 
+DOI's from papers were extracted using Scopus.
 The search in Scopus was with the following keywords:
 ("biodegradable film" OR "biodegradable composite" OR "nanocomposite film" OR "nanocomposite" OR
-"bionanocomposite" OR "biocomposite"). The search was limited to papers in the areas of materials science, engineering, chemistry and chemical engineering. It was alto limited to articles, conference papers or reviews. Finally, the search was sorted on relevance. It had a total of 104.457 documents. The 2000 most relevant were downloaded. Of, these, Scihub2pdf downloaded 1673 PDF's.
+"bionanocomposite" OR "biocomposite"). The search was limited to papers in the areas of materials science, engineering, chemistry and chemical engineering. It was alto limited to articles, conference papers or reviews. Finally, the search was sorted on relevance. It had a total of 104.457 documents. The DOI'S of the 2000 most relevant were exported into a TXT file.
 
 Then, this file was used to download the papers from Libgen using [Scihub2pdf](https://github.com/bibcure/scihub2pdf).
 (Sometimes Libgen would block my IP and stop the script. I had to wait one day to continue downloading).
+Of, these, Scihub2pdf downloaded 1673 PDF's.
 
 ## Part 2: Extracting images from PDF's
 I used [pdffigures2](https://github.com/allenai/pdffigures2).
