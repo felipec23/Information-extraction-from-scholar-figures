@@ -5,7 +5,7 @@ This project: downloads PDF's from Libgen, extract the images from PDF's, classi
 DOI's from papers were extracted using Scopus.
 The search in Scopus was with the following keywords:
 ("biodegradable film" OR "biodegradable composite" OR "nanocomposite film" OR "nanocomposite" OR
-"bionanocomposite" OR "biocomposite"). The search was limited to papers in the areas of materials science, engineering, chemistry and chemical engineering. It was alto limited to articles, conference papers or reviews. Finally, the search was sorted on relevance. It had a total of 104.457 documents. The DOI'S of the 2000 most relevant were exported into a TXT file.
+"bionanocomposite" OR "biocomposite"). The search was limited to papers in the areas of materials science, engineering, chemistry and chemical engineering. It was also limited to articles, conference papers or reviews. Finally, the search was sorted on relevance. It had a total of 104.457 documents. The DOI'S of the 2000 most relevant were exported into a TXT file.
 
 Then, this file was used to download the papers from Libgen using [Scihub2pdf](https://github.com/bibcure/scihub2pdf).
 (Sometimes Libgen would block my IP and stop the script. I had to wait one day to continue downloading).
