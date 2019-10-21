@@ -1,4 +1,4 @@
-# Information-extraction-from-scholar-figures
+# Information extraction from scholar figures
 This project: downloads PDF's from Libgen, extract the images from PDF's, classifies them, and extract the information in it.
 
 ## Part 1: Downloading the PDF's
