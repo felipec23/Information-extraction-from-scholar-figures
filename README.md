@@ -63,4 +63,6 @@ xargs rm -rf <list.txt
 I executed the script for every error ocurred.
 
 ## Part 3: Building the deep learning model that classifies images in linear and non-linear
-Two kind of DL models were generated: through manual optimization and through fine-tuning. Three different notebooks were generated for this objective: the first one (INCEPTION-50epochs-10e-4) is an example of fine-tuning. So far, this technique has given the best metrics (0.239 in test loss, and 0.900 in test accuracy). The second notebook (Clasificador_UU) contains the manual optimization method used, were -through for loops- different models were created. The last one is the template in which the models generated in notebooks 1 and 2 were tested (Test_sin_batches-plantilla).
+The deep learning model is to predict whether an image is linear or non-linear.
+Two kind of DL models were generated: through manual optimization and through fine-tuning. 
+Three different notebooks were generated for this objective: the first one (INCEPTION-50epochs-10e-4) is an example of fine-tuning. So far, this technique has given the best metrics (0.239 in test loss, and 0.900 in test accuracy). The second notebook (Clasificador_UU) contains the manual optimization method used, were -through for loops- different models were created. The last one is the template in which the models generated in notebooks 1 and 2 were tested (Test_sin_batches-plantilla).
