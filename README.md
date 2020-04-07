@@ -71,7 +71,7 @@ Three different notebooks were generated for this objective: the first one (INCE
 The second notebook (Clasificador_UU) contains the manual optimization method used, were -through for loops- different models were created. 
 The last one is the template in which the models generated in notebooks 1 and 2 were tested (Test_sin_batches-plantilla).
 
-After running many different combination of models (see 'informe_final' for more detail), the best one achieved a precission of 94%. This model can be downloaded from [here](https://drive.google.com/file/d/181uim1zvqu_IJqK98U0wt-kKS6vFbxx7/view?usp=sharing).
+After running many different combination of models (see 'Anteproyecto y proyecto' for more detail), the best one achieved a precission of 94%. This model can be downloaded from [here](https://drive.google.com/file/d/181uim1zvqu_IJqK98U0wt-kKS6vFbxx7/view?usp=sharing).
 
 ## Part 4: Detecting and extracting the edges, the curves and the metadata
 This last step focuses on extracting information from the figures. First, the edges were detected. This was done by calculating an average of all of the column and row values from the image. This allowed to see rows or columns where black colors were predominant, and in this way, to the detect the X or Y ax. Later, to strenghten this process, a reward system was designed in order to avoid mistakes in figures where there were many black lines, or many edges or even in those where no axes existed.
